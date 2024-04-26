@@ -7,7 +7,7 @@ sass实现css预编译
 icon-font实现所有小图标的加载，减少http请求 
 路由懒加载：Vue Router结合 Vue异步组件和Webpack 的 Code Splitting
 axios做ajax请求
-sessionStorage 存储用户信息
+LocalStorage 存储用户信息
 
 ### 功能实现
 # 首页
@@ -27,7 +27,7 @@ sessionStorage 存储用户信息
 ### 总结
 1、熟悉使用Vue3.0
 2、在项目中，将组件进行分离，编写可以复用的组件，提高效率
-3、Vuex的状态管理模块，统一的状态的管理，让我们更好的去对数据操作
+3、Pinia的状态管理模块，统一的状态的管理，让我们更好的去对数据操作
 4、util的工具，倒计时js
 5、对axios有更进一步的理解，利用cros进行跨域处理
 6、进行路由的懒加载，优化页面加载
